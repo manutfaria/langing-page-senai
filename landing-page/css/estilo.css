@@ -1,0 +1,157 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+*{
+
+    margin: 0;
+    padding:0;
+    box-sizing:border-box
+}
+body{
+    font-family: 'Bebas Neue';
+}
+
+.container-grid{
+    width: 85%;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+header{
+    background-color: #f9003d;
+    height: 80px;
+    position: fixed;
+    width: 100vw;
+    z-index: 99;
+}
+.conteudo-header{
+    display: flex;
+    justify-content: space-between;
+    height: 100%;
+    align-items: center;
+}
+.logo{
+    height: 40px;
+}
+.menu-header{
+    width: 50%;
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.menu-header a{
+    color:azure;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 1.25em;
+    transition: 0.5s;
+}
+
+.menu-header a:hover:not(.botao){
+    font-size: 1.6em;
+    transition: 0.5s;
+    text-shadow: 4px 4px 6px rgba(0, 0, 0, 0.8);
+}
+
+.botao{
+    background-color: #a259f7;
+    height: 45px;
+    width: 150px;
+    text-align: center;
+    line-height: 47px;
+    font-size: 1.5em !important;
+    border: solid 1px #080324;
+}
+.botao:hover{
+    font-size: 1.6em;
+    height: 45px;
+    line-height: 53px;
+    width:160px;
+    transition: 0.5s;
+    text-shadow: 4px 4px 6px rgba(0, 0, 0, 0.8);
+}
+
+.menu-barras{
+    display: none;
+}
+
+.banner{
+    background-image: url(../imagens/imagem-fundo-banner.jpg);
+    height: 768px;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.conteudo-banner{
+    display: flex;
+    align-items: flex-end;
+    height: 100%;
+}
+.texto-banner{
+    display:flex;
+    flex-direction: column;
+    height: 60%;
+    justify-content: space-around;
+}
+
+h1{
+    color: azure;
+    font-size: 80px;
+}
+
+.linha-amarela{
+    border: solid 1px #ffaf00;
+}
+
+.titulo-senai{
+    font-family: 'Courier New', Courier, monospace;
+    color: #f9003d;
+    font-size: 50px;
+    text-transform: uppercase;
+    font-weight: 600;
+}
+
+.mouse{
+    width: 80px;
+}
+
+.sobre-projetos{
+    background-color: #080324;
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
+
+.sobre-projetos h2{
+    color: #f9003d;
+    font-size: 50px;
+    font-weight: 500;
+    margin-bottom: 40px;
+}
+.conteudo-sobre{
+    display:flex;
+    justify-content: space-between;
+}
+.imagem-sobre{
+    width: 40%;
+}
+.texto-sobre{
+    width: 50%;
+}
+
+.texto-participantes{
+    color:azure;
+    font-family: 'Courier New', Courier, monospace;
+    text-transform: uppercase;
+    font-size: 25px;
+    font-weight: 600;
+}
+
+.texto-sobre h3{
+    color: #ffaf00;
+    font-size: 45px;
+    font-weight: 500;
+}
+.texto-sobre p{
+    color:azure;
+    font-family: 'Segoe UI', sans-serif;
+    text-align: justify;
+
+}
